@@ -1,0 +1,15 @@
+title: 병목 레이더
+description: 단기·장기 병목과 유망 산업을 매주 분석하고, 예측을 채점하는 주간 매거진
+lang: ko
+timezone: Asia/Seoul
+baseurl: /bottleneck-radar
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: /:year/:month/:day/
+exclude:
+  - EDITORIAL_GUIDE.md
+  - README.md
+  - preview/
+  - tools/

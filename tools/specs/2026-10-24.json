@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-24",
+  "charts": [
+    {"name": "thermo", "type": "heat", "title": "병목 온도계: 어디가 얼마나 막혀 있나 (1 여유 ~ 5 심각, 편집자 판단)",
+     "cols": ["지금", "1년 뒤", "5년 뒤"],
+     "rows": [
+       {"label": "원유·LNG 운송", "values": [5, 3, 2]},
+       {"label": "HBM 메모리", "values": [5, 5, 3]},
+       {"label": "AI칩 패키징", "values": [5, 4, 2]},
+       {"label": "전력 기기", "values": [5, 5, 4]},
+       {"label": "조선 도크", "values": [4, 4, 3]},
+       {"label": "희토류 자석", "values": [3, 4, 3]},
+       {"label": "구리", "values": [3, 3, 4]},
+       {"label": "로봇 감속기", "values": [2, 3, 4]}
+     ]},
+    {"name": "hormuz", "type": "compare", "title": "호르무즈 해협: 위기 전과 지금",
+     "items": [
+       {"label": "하루 통과하는 배 (척)", "before": 85, "after": 4, "before_label": "위기 전", "after_label": "10/18"},
+       {"label": "초대형 유조선 하루 운임 (천 달러)", "before": 50, "after": 1300, "before_label": "위기 전", "after_label": "지금"},
+       {"label": "1회 통과 전쟁보험료 (선박값의 %)", "before": 0.25, "after": 6, "before_label": "위기 전", "after_label": "지금"}
+     ]},
+    {"name": "hbm", "type": "compare", "title": "HBM4 한 묶음(12단 36GB) 가격 (달러)",
+     "items": [
+       {"label": "업계 추정", "before": 600, "after": 1300, "before_label": "2026년", "after_label": "2027년"}
+     ]},
+    {"name": "leadtime", "type": "hbars", "title": "지금 주문하면 언제 받나 (대략, 년)", "unit": "년",
+     "items": [
+       {"label": "대형 가스터빈", "value": 5, "note": "2031~34년 인도분 계약 중"},
+       {"label": "한국 대형 조선소 새 배", "value": 4, "note": "2030년 인도분까지 찼음"},
+       {"label": "미국 대형 전력 변압기", "value": 2.5, "note": "평균 128주"}
+     ]}
+  ]
+}

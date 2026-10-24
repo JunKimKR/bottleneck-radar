@@ -1,0 +1,112 @@
+<figure class="chart">
+<figcaption>병목 온도계: 어디가 얼마나 막혀 있나 (1 여유 ~ 5 심각, 편집자 판단)</figcaption>
+<svg viewBox="0 0 400 354" width="100%" role="img" aria-label="원유·LNG 운송: 지금 5, 1년 뒤 3, 5년 뒤 2; HBM 메모리: 지금 5, 1년 뒤 5, 5년 뒤 3; AI칩 패키징: 지금 5, 1년 뒤 4, 5년 뒤 2; 전력 기기: 지금 5, 1년 뒤 5, 5년 뒤 4; 조선 도크: 지금 4, 1년 뒤 4, 5년 뒤 3; 희토류 자석: 지금 3, 1년 뒤 4, 5년 뒤 3; 구리: 지금 3, 1년 뒤 3, 5년 뒤 4; 로봇 감속기: 지금 2, 1년 뒤 3, 5년 뒤 4" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<text x="176.7" y="18" font-size="13" font-weight="700" text-anchor="middle" fill="var(--muted)">지금</text>
+<text x="266.0" y="18" font-size="13" font-weight="700" text-anchor="middle" fill="var(--muted)">1년 뒤</text>
+<text x="355.3" y="18" font-size="13" font-weight="700" text-anchor="middle" fill="var(--muted)">5년 뒤</text>
+<text x="0" y="55.0" font-size="14" font-weight="600" fill="var(--ink)">원유·LNG 운송</text>
+<g><title>원유·LNG 운송 · 지금: 5 (심각)</title>
+<rect x="133.5" y="31.5" width="86.3" height="37.0" rx="6" fill="var(--heat-5)"/>
+<text x="176.7" y="55.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-5)">5 심각</text>
+</g>
+<g><title>원유·LNG 운송 · 1년 뒤: 3 (빠듯)</title>
+<rect x="222.8" y="31.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="266.0" y="55.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<g><title>원유·LNG 운송 · 5년 뒤: 2 (보통)</title>
+<rect x="312.2" y="31.5" width="86.3" height="37.0" rx="6" fill="var(--heat-2)"/>
+<text x="355.3" y="55.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-2)">2 보통</text>
+</g>
+<text x="0" y="95.0" font-size="14" font-weight="600" fill="var(--ink)">HBM 메모리</text>
+<g><title>HBM 메모리 · 지금: 5 (심각)</title>
+<rect x="133.5" y="71.5" width="86.3" height="37.0" rx="6" fill="var(--heat-5)"/>
+<text x="176.7" y="95.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-5)">5 심각</text>
+</g>
+<g><title>HBM 메모리 · 1년 뒤: 5 (심각)</title>
+<rect x="222.8" y="71.5" width="86.3" height="37.0" rx="6" fill="var(--heat-5)"/>
+<text x="266.0" y="95.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-5)">5 심각</text>
+</g>
+<g><title>HBM 메모리 · 5년 뒤: 3 (빠듯)</title>
+<rect x="312.2" y="71.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="355.3" y="95.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<text x="0" y="135.0" font-size="14" font-weight="600" fill="var(--ink)">AI칩 패키징</text>
+<g><title>AI칩 패키징 · 지금: 5 (심각)</title>
+<rect x="133.5" y="111.5" width="86.3" height="37.0" rx="6" fill="var(--heat-5)"/>
+<text x="176.7" y="135.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-5)">5 심각</text>
+</g>
+<g><title>AI칩 패키징 · 1년 뒤: 4 (부족)</title>
+<rect x="222.8" y="111.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="266.0" y="135.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+<g><title>AI칩 패키징 · 5년 뒤: 2 (보통)</title>
+<rect x="312.2" y="111.5" width="86.3" height="37.0" rx="6" fill="var(--heat-2)"/>
+<text x="355.3" y="135.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-2)">2 보통</text>
+</g>
+<text x="0" y="175.0" font-size="14" font-weight="600" fill="var(--ink)">전력 기기</text>
+<g><title>전력 기기 · 지금: 5 (심각)</title>
+<rect x="133.5" y="151.5" width="86.3" height="37.0" rx="6" fill="var(--heat-5)"/>
+<text x="176.7" y="175.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-5)">5 심각</text>
+</g>
+<g><title>전력 기기 · 1년 뒤: 5 (심각)</title>
+<rect x="222.8" y="151.5" width="86.3" height="37.0" rx="6" fill="var(--heat-5)"/>
+<text x="266.0" y="175.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-5)">5 심각</text>
+</g>
+<g><title>전력 기기 · 5년 뒤: 4 (부족)</title>
+<rect x="312.2" y="151.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="355.3" y="175.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+<text x="0" y="215.0" font-size="14" font-weight="600" fill="var(--ink)">조선 도크</text>
+<g><title>조선 도크 · 지금: 4 (부족)</title>
+<rect x="133.5" y="191.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="176.7" y="215.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+<g><title>조선 도크 · 1년 뒤: 4 (부족)</title>
+<rect x="222.8" y="191.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="266.0" y="215.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+<g><title>조선 도크 · 5년 뒤: 3 (빠듯)</title>
+<rect x="312.2" y="191.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="355.3" y="215.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<text x="0" y="255.0" font-size="14" font-weight="600" fill="var(--ink)">희토류 자석</text>
+<g><title>희토류 자석 · 지금: 3 (빠듯)</title>
+<rect x="133.5" y="231.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="176.7" y="255.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<g><title>희토류 자석 · 1년 뒤: 4 (부족)</title>
+<rect x="222.8" y="231.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="266.0" y="255.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+<g><title>희토류 자석 · 5년 뒤: 3 (빠듯)</title>
+<rect x="312.2" y="231.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="355.3" y="255.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<text x="0" y="295.0" font-size="14" font-weight="600" fill="var(--ink)">구리</text>
+<g><title>구리 · 지금: 3 (빠듯)</title>
+<rect x="133.5" y="271.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="176.7" y="295.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<g><title>구리 · 1년 뒤: 3 (빠듯)</title>
+<rect x="222.8" y="271.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="266.0" y="295.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<g><title>구리 · 5년 뒤: 4 (부족)</title>
+<rect x="312.2" y="271.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="355.3" y="295.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+<text x="0" y="335.0" font-size="14" font-weight="600" fill="var(--ink)">로봇 감속기</text>
+<g><title>로봇 감속기 · 지금: 2 (보통)</title>
+<rect x="133.5" y="311.5" width="86.3" height="37.0" rx="6" fill="var(--heat-2)"/>
+<text x="176.7" y="335.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-2)">2 보통</text>
+</g>
+<g><title>로봇 감속기 · 1년 뒤: 3 (빠듯)</title>
+<rect x="222.8" y="311.5" width="86.3" height="37.0" rx="6" fill="var(--heat-3)"/>
+<text x="266.0" y="335.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-3)">3 빠듯</text>
+</g>
+<g><title>로봇 감속기 · 5년 뒤: 4 (부족)</title>
+<rect x="312.2" y="311.5" width="86.3" height="37.0" rx="6" fill="var(--heat-4)"/>
+<text x="355.3" y="335.0" font-size="13" font-weight="700" text-anchor="middle" fill="var(--heat-ink-4)">4 부족</text>
+</g>
+</svg>
+</figure>

@@ -1,0 +1,20 @@
+<figure class="chart">
+<figcaption>지금 주문하면 언제 받나 (대략, 년)</figcaption>
+<svg viewBox="0 0 400 158" width="100%" role="img" aria-label="대형 가스터빈 5년, 한국 대형 조선소 새 배 4년, 미국 대형 전력 변압기 2.5년" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<g><title>대형 가스터빈 5 년</title>
+<text x="0" y="19" font-size="14" font-weight="600" fill="var(--ink)">대형 가스터빈 · 2031~34년 인도분 계약 중</text>
+<rect x="0" y="27" width="330.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="338.0" y="41" font-size="14" font-weight="700" fill="var(--ink)">5년</text>
+</g>
+<g><title>한국 대형 조선소 새 배 4 년</title>
+<text x="0" y="69" font-size="14" font-weight="600" fill="var(--ink)">한국 대형 조선소 새 배 · 2030년 인도분까지 찼음</text>
+<rect x="0" y="77" width="264.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="272.0" y="91" font-size="14" font-weight="700" fill="var(--ink)">4년</text>
+</g>
+<g><title>미국 대형 전력 변압기 2.5 년</title>
+<text x="0" y="119" font-size="14" font-weight="600" fill="var(--ink)">미국 대형 전력 변압기 · 평균 128주</text>
+<rect x="0" y="127" width="165.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="173.0" y="141" font-size="14" font-weight="700" fill="var(--ink)">2.5년</text>
+</g>
+</svg>
+</figure>

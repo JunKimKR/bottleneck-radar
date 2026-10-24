@@ -1,0 +1,33 @@
+<h2 id="ledger"><span class="sec-no">05</span>예측 장부</h2>
+<p>이번 호에서 새로 건 예측입니다. 기한이 지나면 맞았는지 채점해서 <a href="{{ '/ledger/' | relative_url }}">전체 장부</a>에 기록합니다.</p>
+{% assign mine = site.data.predictions | where: "issue", page.issue %}
+<div class="preds">
+  {% for p in mine %}
+  <div class="pred">
+    <div class="pred-top">
+      <span class="pred-id">#{{ p.id }}</span>
+      <span class="pred-prob">{{ p.prob }}%</span>
+    </div>
+    <p class="pred-claim">{{ p.claim }}</p>
+    <div class="prob-bar"><span style="width: {{ p.prob }}%"></span></div>
+    <p class="pred-meta"><b>기한</b> {{ p.deadline }} · <b>판정 기준</b> {{ p.criteria }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% assign due = site.data.predictions | where: "resolved_in", page.issue %}
+{% if due.size > 0 %}
+<h3>지난 예측 채점</h3>
+<div class="preds">
+  {% for p in due %}
+  <div class="pred {{ p.status }}">
+    <div class="pred-top">
+      <span class="pred-id">#{{ p.id }} · {{ p.prob }}%</span>
+      <span class="pred-status {{ p.status }}">{% if p.status == "hit" %}적중{% elsif p.status == "miss" %}빗나감{% else %}판정 불가{% endif %}</span>
+    </div>
+    <p class="pred-claim">{{ p.claim }}</p>
+    <p class="pred-meta">{{ p.result }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+

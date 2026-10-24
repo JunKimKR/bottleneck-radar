@@ -1,0 +1,38 @@
+<figure class="chart">
+<figcaption>호르무즈 해협: 위기 전과 지금</figcaption>
+<svg viewBox="0 0 400 280" width="100%" role="img" aria-label="하루 통과하는 배 (척): 85 → 4; 초대형 유조선 하루 운임 (천 달러): 50 → 1,300; 1회 통과 전쟁보험료 (선박값의 %): 0.25 → 6" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<text x="0" y="16" font-size="14" font-weight="700" fill="var(--ink)">하루 통과하는 배 (척)</text>
+<g><title>하루 통과하는 배 (척) 위기 전: 85 </title>
+<text x="0" y="40" font-size="13" fill="var(--muted)">위기 전</text>
+<rect x="60" y="28" width="244.0" height="18" rx="4" fill="var(--muted)"/>
+<text x="312.0" y="42" font-size="14" font-weight="700" fill="var(--ink)">85</text>
+</g>
+<g><title>하루 통과하는 배 (척) 10/18: 4 </title>
+<text x="0" y="70" font-size="13" fill="var(--muted)">10/18</text>
+<rect x="60" y="58" width="11.5" height="18" rx="4" fill="var(--accent)"/>
+<text x="79.5" y="72" font-size="14" font-weight="700" fill="var(--ink)">4</text>
+</g>
+<text x="0" y="108" font-size="14" font-weight="700" fill="var(--ink)">초대형 유조선 하루 운임 (천 달러)</text>
+<g><title>초대형 유조선 하루 운임 (천 달러) 위기 전: 50 </title>
+<text x="0" y="132" font-size="13" fill="var(--muted)">위기 전</text>
+<rect x="60" y="120" width="9.4" height="18" rx="4" fill="var(--muted)"/>
+<text x="77.4" y="134" font-size="14" font-weight="700" fill="var(--ink)">50</text>
+</g>
+<g><title>초대형 유조선 하루 운임 (천 달러) 지금: 1,300 </title>
+<text x="0" y="162" font-size="13" fill="var(--muted)">지금</text>
+<rect x="60" y="150" width="244.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="312.0" y="164" font-size="14" font-weight="700" fill="var(--ink)">1,300</text>
+</g>
+<text x="0" y="200" font-size="14" font-weight="700" fill="var(--ink)">1회 통과 전쟁보험료 (선박값의 %)</text>
+<g><title>1회 통과 전쟁보험료 (선박값의 %) 위기 전: 0.25 </title>
+<text x="0" y="224" font-size="13" fill="var(--muted)">위기 전</text>
+<rect x="60" y="212" width="10.2" height="18" rx="4" fill="var(--muted)"/>
+<text x="78.2" y="226" font-size="14" font-weight="700" fill="var(--ink)">0.25</text>
+</g>
+<g><title>1회 통과 전쟁보험료 (선박값의 %) 지금: 6 </title>
+<text x="0" y="254" font-size="13" fill="var(--muted)">지금</text>
+<rect x="60" y="242" width="244.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="312.0" y="256" font-size="14" font-weight="700" fill="var(--ink)">6</text>
+</g>
+</svg>
+</figure>

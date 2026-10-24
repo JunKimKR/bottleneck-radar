@@ -1,0 +1,49 @@
+---
+layout: default
+title: 예측 장부
+permalink: /ledger/
+---
+{% assign all = site.data.predictions %}
+{% assign hits = all | where: "status", "hit" %}
+{% assign misses = all | where: "status", "miss" %}
+{% assign opens = all | where: "status", "open" %}
+<section class="cover slim">
+  <div class="wrap">
+    <p class="kicker">PREDICTION LEDGER</p>
+    <h1 class="headline">예측 장부</h1>
+    <p class="dek">이 매거진이 건 모든 예측과 채점 결과입니다. 확률 70%라고 한 예측은 10번 중 7번쯤 맞아야 정상입니다. 그보다 많이 틀리면 편집자가 너무 자신만만한 것이고, 훨씬 많이 맞으면 너무 소심한 겁니다.</p>
+    <div class="verdict">
+      <div class="v-item"><span class="v-tag up">적중</span><span class="v-text">{{ hits.size }}건</span></div>
+      <div class="v-item"><span class="v-tag down">빗나감</span><span class="v-text">{{ misses.size }}건</span></div>
+      <div class="v-item"><span class="v-tag">진행 중</span><span class="v-text">{{ opens.size }}건</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap body">
+  {% assign sorted = all | sort: "deadline" %}
+  <h2>진행 중</h2>
+  <div class="preds">
+    {% for p in sorted %}{% if p.status == "open" %}
+    <div class="pred">
+      <div class="pred-top"><span class="pred-id">#{{ p.id }} · VOL.{{ p.issue }}</span><span class="pred-prob">{{ p.prob }}%</span></div>
+      <p class="pred-claim">{{ p.claim }}</p>
+      <div class="prob-bar"><span style="width: {{ p.prob }}%"></span></div>
+      <p class="pred-meta"><b>기한</b> {{ p.deadline }} · <b>판정 기준</b> {{ p.criteria }}</p>
+    </div>
+    {% endif %}{% endfor %}
+  </div>
+
+  {% if hits.size > 0 or misses.size > 0 %}
+  <h2>채점 끝</h2>
+  <div class="preds">
+    {% for p in sorted %}{% if p.status != "open" %}
+    <div class="pred {{ p.status }}">
+      <div class="pred-top"><span class="pred-id">#{{ p.id }} · {{ p.prob }}%</span><span class="pred-status {{ p.status }}">{% if p.status == "hit" %}적중{% elsif p.status == "miss" %}빗나감{% else %}판정 불가{% endif %}</span></div>
+      <p class="pred-claim">{{ p.claim }}</p>
+      <p class="pred-meta">{{ p.result }}</p>
+    </div>
+    {% endif %}{% endfor %}
+  </div>
+  {% endif %}
+</div>

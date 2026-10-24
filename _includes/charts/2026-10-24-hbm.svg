@@ -1,0 +1,16 @@
+<figure class="chart">
+<figcaption>HBM4 한 묶음(12단 36GB) 가격 (달러)</figcaption>
+<svg viewBox="0 0 400 96" width="100%" role="img" aria-label="업계 추정: 600 → 1,300" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<text x="0" y="16" font-size="14" font-weight="700" fill="var(--ink)">업계 추정</text>
+<g><title>업계 추정 2026년: 600 </title>
+<text x="0" y="40" font-size="13" fill="var(--muted)">2026년</text>
+<rect x="60" y="28" width="112.6" height="18" rx="4" fill="var(--muted)"/>
+<text x="180.6" y="42" font-size="14" font-weight="700" fill="var(--ink)">600</text>
+</g>
+<g><title>업계 추정 2027년: 1,300 </title>
+<text x="0" y="70" font-size="13" fill="var(--muted)">2027년</text>
+<rect x="60" y="58" width="244.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="312.0" y="72" font-size="14" font-weight="700" fill="var(--ink)">1,300</text>
+</g>
+</svg>
+</figure>

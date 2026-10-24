@@ -1,0 +1,62 @@
+# 예측 장부. 새 예측은 맨 아래에 추가하고, 채점할 때 status/result/resolved_in을 채운다.
+# status: open(진행 중) | hit(적중) | miss(빗나감) | void(판정 불가)
+- id: 1
+  issue: 1
+  made: 2026-10-24
+  claim: "미국 연준이 10월 28일 회의에서 기준금리를 동결한다 (3.75~4.00% 유지)"
+  prob: 85
+  deadline: 2026-10-29
+  criteria: "연준 공식 성명(FOMC statement)"
+  status: open
+  result: ""
+  resolved_in:
+- id: 2
+  issue: 1
+  made: 2026-10-24
+  claim: "중국이 11월 10일 끝나는 희토류 수출통제 유예를 연장하거나, 같은 효과의 조치를 발표한다"
+  prob: 70
+  deadline: 2026-11-15
+  criteria: "중국 상무부(MOFCOM) 공식 공고. 11월 15일까지 아무 발표 없이 통제가 다시 시행되면 빗나감"
+  status: open
+  result: ""
+  resolved_in:
+- id: 3
+  issue: 1
+  made: 2026-10-24
+  claim: "12월 31일까지 호르무즈 해협 통항이 하루 평균 40척 이상(7일 평균)으로 회복된다"
+  prob: 15
+  deadline: 2026-12-31
+  criteria: "IMF PortWatch 호르무즈 해협 7일 평균 통항 수 (위기 전 약 85척, 10월 18일 4척)"
+  status: open
+  result: ""
+  resolved_in:
+- id: 4
+  issue: 1
+  made: 2026-10-24
+  claim: "LME 구리 가격이 12월 31일까지 사상 최고가(톤당 $14,858, 9월 9일)를 넘는다"
+  prob: 40
+  deadline: 2026-12-31
+  criteria: "LME 3개월물 종가 기준, 주요 언론 보도로 확인"
+  status: open
+  result: ""
+  resolved_in:
+- id: 5
+  issue: 1
+  made: 2026-10-24
+  claim: "이번 주 실적을 내는 마이크로소프트·알파벳·아마존 중 2곳 이상이 내년 설비투자(capex)를 올해보다 늘리겠다고 밝힌다"
+  prob: 80
+  deadline: 2026-10-31
+  criteria: "각 회사 실적 발표·컨퍼런스콜 내용을 다룬 주요 언론 보도"
+  status: open
+  result: ""
+  resolved_in:
+- id: 6
+  issue: 1
+  made: 2026-10-24
+  claim: "2028년 말까지 미국 대형 전력 변압기 평균 납기가 100주 아래로 내려온다"
+  prob: 25
+  deadline: 2028-12-31
+  criteria: "우드맥켄지 등 업계 조사의 미국 대형 전력 변압기 평균 납기 (2025년 2분기 약 128주)"
+  status: open
+  result: ""
+  resolved_in:

@@ -1,0 +1,50 @@
+---
+layout: default
+---
+{% assign latest = site.posts | first %}
+{% if latest %}
+<section class="cover">
+  <div class="wrap">
+    <p class="kicker">최신호 · VOL.{{ latest.issue }} · {{ latest.date | date: "%Y.%m.%d" }} · {{ latest.week }}</p>
+    <h1 class="headline"><a href="{{ latest.url | relative_url }}">{{ latest.headline }}</a></h1>
+    <p class="dek">{{ latest.dek }}</p>
+    {% if latest.verdict %}
+    <div class="verdict">
+      {% for v in latest.verdict %}
+      <div class="v-item">
+        <span class="v-tag {{ v.tone }}">{{ v.tag }}</span>
+        <span class="v-text">{{ v.text }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <a class="read-btn" href="{{ latest.url | relative_url }}">이번 호 읽기 →</a>
+  </div>
+</section>
+{% endif %}
+
+<div class="wrap">
+  {% assign hits = site.data.predictions | where: "status", "hit" %}
+  {% assign misses = site.data.predictions | where: "status", "miss" %}
+  {% assign opens = site.data.predictions | where: "status", "open" %}
+  <a class="scorecard" href="{{ '/ledger/' | relative_url }}">
+    <span class="sc-title">예측 성적표</span>
+    <span class="sc-nums">
+      <span><b>{{ hits.size }}</b> 적중</span>
+      <span><b>{{ misses.size }}</b> 빗나감</span>
+      <span><b>{{ opens.size }}</b> 진행 중</span>
+    </span>
+  </a>
+
+  <h2 class="archive-title">지난 호</h2>
+  <ul class="archive">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="a-date">VOL.{{ post.issue }}<small>{{ post.date | date: "%Y.%m.%d" }}</small></span>
+        <span class="a-head">{{ post.headline }}<small>장기 딥다이브: {{ post.deep }}</small></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

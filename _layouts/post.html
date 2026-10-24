@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="issue">
+  <section class="cover">
+    <div class="wrap">
+      <p class="kicker">VOL.{{ page.issue }} · {{ page.date | date: "%Y.%m.%d" }} · {{ page.week }}</p>
+      <h1 class="headline">{{ page.headline }}</h1>
+      <p class="dek">{{ page.dek }}</p>
+      {% if page.verdict %}
+      <div class="verdict">
+        {% for v in page.verdict %}
+        <div class="v-item">
+          <span class="v-tag {{ v.tone }}">{{ v.tag }}</span>
+          <span class="v-text">{{ v.text }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <nav class="sec-nav" aria-label="섹션 바로가기">
+    <div class="wrap">
+      <a href="#thermo">온도계</a>
+      <a href="#short">단기 신호</a>
+      <a href="#deep">장기 딥다이브</a>
+      <a href="#wild">의외의 분야</a>
+      <a href="#ledger">예측 장부</a>
+      <a href="#calendar">다음 주</a>
+      <a href="#sources">출처</a>
+    </div>
+  </nav>
+
+  <div class="wrap body">
+    {{ content }}
+
+  </div>
+</article>
+
+<nav class="pager wrap">
+  {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← 지난 호</a>{% else %}<span></span>{% endif %}
+  <a href="{{ '/' | relative_url }}">전체 목록</a>
+  {% if page.next %}<a href="{{ page.next.url | relative_url }}">다음 호 →</a>{% else %}<span></span>{% endif %}
+</nav>
