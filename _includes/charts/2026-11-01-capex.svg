@@ -1,0 +1,20 @@
+<figure class="chart">
+<figcaption>빅테크 3사 올해 설비투자 전망 (10월 말 실적 발표 기준, 억 달러)</figcaption>
+<svg viewBox="0 0 400 158" width="100%" role="img" aria-label="아마존 2,200, 알파벳 2,000, 마이크로소프트 1,700" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<g><title>아마존 2,200 </title>
+<text x="0" y="19" font-size="14" font-weight="600" fill="var(--ink)">아마존 · 2027년 &#x27;의미 있게 더&#x27;</text>
+<rect x="0" y="27" width="330.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="338.0" y="41" font-size="14" font-weight="700" fill="var(--ink)">2,200</text>
+</g>
+<g><title>알파벳 2,000 </title>
+<text x="0" y="69" font-size="14" font-weight="600" fill="var(--ink)">알파벳 · 2027년 &#x27;크게 증가&#x27;</text>
+<rect x="0" y="77" width="300.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="308.0" y="91" font-size="14" font-weight="700" fill="var(--ink)">2,000</text>
+</g>
+<g><title>마이크로소프트 1,700 </title>
+<text x="0" y="119" font-size="14" font-weight="600" fill="var(--ink)">마이크로소프트 · 1,750에서 하향</text>
+<rect x="0" y="127" width="255.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="263.0" y="141" font-size="14" font-weight="700" fill="var(--ink)">1,700</text>
+</g>
+</svg>
+</figure>

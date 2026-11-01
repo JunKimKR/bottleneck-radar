@@ -1,0 +1,25 @@
+<figure class="chart">
+<figcaption>언제 풀린다고 했나 (2026년 기준 몇 년 뒤)</figcaption>
+<svg viewBox="0 0 400 208" width="100%" role="img" aria-label="CoWoS 부족 완화 시작 1년, 메모리 부족(삼성전자) 2년, 하이브리드 본딩 양산 3.5년, 메모리 부족(SK하이닉스) 4년" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<g><title>CoWoS 부족 완화 시작 1 년</title>
+<text x="0" y="19" font-size="14" font-weight="600" fill="var(--ink)">CoWoS 부족 완화 시작 · 2027년</text>
+<rect x="0" y="27" width="82.5" height="18" rx="4" fill="var(--accent)"/>
+<text x="90.5" y="41" font-size="14" font-weight="700" fill="var(--ink)">1년</text>
+</g>
+<g><title>메모리 부족(삼성전자) 2 년</title>
+<text x="0" y="69" font-size="14" font-weight="600" fill="var(--ink)">메모리 부족(삼성전자) · 2028년까지</text>
+<rect x="0" y="77" width="165.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="173.0" y="91" font-size="14" font-weight="700" fill="var(--ink)">2년</text>
+</g>
+<g><title>하이브리드 본딩 양산 3.5 년</title>
+<text x="0" y="119" font-size="14" font-weight="600" fill="var(--ink)">하이브리드 본딩 양산 · 2029~30년</text>
+<rect x="0" y="127" width="288.8" height="18" rx="4" fill="var(--accent)"/>
+<text x="296.8" y="141" font-size="14" font-weight="700" fill="var(--ink)">3.5년</text>
+</g>
+<g><title>메모리 부족(SK하이닉스) 4 년</title>
+<text x="0" y="169" font-size="14" font-weight="600" fill="var(--ink)">메모리 부족(SK하이닉스) · 2030년까지</text>
+<rect x="0" y="177" width="330.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="338.0" y="191" font-size="14" font-weight="700" fill="var(--ink)">4년</text>
+</g>
+</svg>
+</figure>

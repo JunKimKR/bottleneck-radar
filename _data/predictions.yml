@@ -7,9 +7,9 @@
   prob: 85
   deadline: 2026-10-29
   criteria: "연준 공식 성명(FOMC statement)"
-  status: open
-  result: ""
-  resolved_in:
+  status: hit
+  result: "10월 28일 기준금리 3.75~4.00% 동결(10대 2, 반대 2명은 인상 주장). 출처: 연준 공식 성명, CNBC"
+  resolved_in: 2
 - id: 2
   issue: 1
   made: 2026-10-24
@@ -47,9 +47,9 @@
   prob: 80
   deadline: 2026-10-31
   criteria: "각 회사 실적 발표·컨퍼런스콜 내용을 다룬 주요 언론 보도"
-  status: open
-  result: ""
-  resolved_in:
+  status: hit
+  result: "알파벳은 2027년 설비투자가 '크게 늘어난다', 아마존은 2027년에 '의미 있게 더 쓴다'고 밝힘(2곳 충족). 마이크로소프트는 연간 설비투자 전망을 1,750억→1,700억 달러로 낮춤(GPU 공급 지연 탓, 대상 기간 표기는 출처마다 다름). 출처: CNBC, 야후파이낸스"
+  resolved_in: 2
 - id: 6
   issue: 1
   made: 2026-10-24
@@ -57,6 +57,56 @@
   prob: 25
   deadline: 2028-12-31
   criteria: "우드맥켄지 등 업계 조사의 미국 대형 전력 변압기 평균 납기 (2025년 2분기 약 128주)"
+  status: open
+  result: ""
+  resolved_in:
+- id: 7
+  issue: 2
+  made: 2026-11-01
+  claim: "엔비디아가 11월 실적 발표에서 제시하는 다음 분기 매출 전망(가이던스 중간값)이 이번 분기 실제 매출보다 10% 이상 높다"
+  prob: 55
+  deadline: 2026-11-30
+  criteria: "엔비디아 공식 실적 보도자료의 다음 분기 매출 전망 중간값 ÷ 이번 분기 매출"
+  status: open
+  result: ""
+  resolved_in:
+- id: 8
+  issue: 2
+  made: 2026-11-01
+  claim: "브렌트유가 11월 30일 종가 기준 배럴당 100달러 아래로 내려온다 (10월 30일 약 113달러)"
+  prob: 20
+  deadline: 2026-11-30
+  criteria: "11월 30일 브렌트유 근월물 종가 (Investing.com 등 2곳 이상)"
+  status: open
+  result: ""
+  resolved_in:
+- id: 9
+  issue: 2
+  made: 2026-11-01
+  claim: "미국 연준이 12월 회의에서 기준금리를 0.25%p 이상 올린다"
+  prob: 70
+  deadline: 2026-12-31
+  criteria: "연준 12월 공식 성명(FOMC statement)"
+  status: open
+  result: ""
+  resolved_in:
+- id: 10
+  issue: 2
+  made: 2026-11-01
+  claim: "삼성전자의 2026년 4분기 연결 영업이익(잠정)이 3분기(107.4조 원)보다 많다"
+  prob: 75
+  deadline: 2027-01-31
+  criteria: "삼성전자 4분기 잠정 실적 공시"
+  status: open
+  result: ""
+  resolved_in:
+- id: 11
+  issue: 2
+  made: 2026-11-01
+  claim: "2027년 4분기 범용 D램 계약가격이 직전 분기보다 내린다 (= 메모리 부족이 2028년까지 간다는 회사 전망이 틀린다)"
+  prob: 30
+  deadline: 2027-12-31
+  criteria: "트렌드포스의 2027년 4분기 범용(conventional) D램 계약가격 전 분기 대비 등락 발표"
   status: open
   result: ""
   resolved_in:

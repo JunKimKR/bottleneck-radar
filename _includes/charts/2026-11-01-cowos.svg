@@ -1,0 +1,20 @@
+<figure class="chart">
+<figcaption>TSMC 첨단 패키징(CoWoS) 한 달 생산능력 (만 장, 업계 추정)</figcaption>
+<svg viewBox="0 0 400 158" width="100%" role="img" aria-label="2025년 말 7만 장, 2026년 말 13만 장, 2027년 20만 장" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<g><title>2025년 말 7 만 장</title>
+<text x="0" y="19" font-size="14" font-weight="600" fill="var(--ink)">2025년 말 · 약 7만~7.5만</text>
+<rect x="0" y="27" width="115.5" height="18" rx="4" fill="var(--accent)"/>
+<text x="123.5" y="41" font-size="14" font-weight="700" fill="var(--ink)">7만 장</text>
+</g>
+<g><title>2026년 말 13 만 장</title>
+<text x="0" y="69" font-size="14" font-weight="600" fill="var(--ink)">2026년 말 · 약 12만~14만</text>
+<rect x="0" y="77" width="214.5" height="18" rx="4" fill="var(--accent)"/>
+<text x="222.5" y="91" font-size="14" font-weight="700" fill="var(--ink)">13만 장</text>
+</g>
+<g><title>2027년 20 만 장</title>
+<text x="0" y="119" font-size="14" font-weight="600" fill="var(--ink)">2027년 · 약 20만~22만</text>
+<rect x="0" y="127" width="330.0" height="18" rx="4" fill="var(--accent)"/>
+<text x="338.0" y="141" font-size="14" font-weight="700" fill="var(--ink)">20만 장</text>
+</g>
+</svg>
+</figure>
